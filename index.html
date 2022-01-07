@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Mulish:400,700,900|Raleway&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,regular,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ABSystem</title>
+</head>
+
+<body>
+
+    <div class="page">
+
+        <!-- Header -->
+        <header class="header" id="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="header__logo" href="#" data-scroll="#intro">
+                        <img src="assets/images/logo.svg" alt="RVSystem">
+                        <span class="header__logo-text">ABSystem</span>
+                    </a>
+
+                    <nav class="nav" id="nav">
+                        <a class="nav__link" href="#" data-scroll="#services">Услуги</a>
+                        <a class="nav__link" href="#" data-scroll="#clients">Клиенты</a>
+                        <a class="nav__link" href="#" data-scroll="#benefits">Преимущества</a>
+                        <a class="nav__link" href="#" data-scroll="#team">Команда</a>
+                        <a class="nav__link" href="#" data-scroll="#mission">Цель</a>
+                        <a class="nav__link" href="#" data-scroll="#news">Новости</a>
+                        <a class="nav__link" href="#" data-modal="#becomeClientModal">Связаться с нами</a>
+                    </nav>
+
+                    <button class="burger" type="button" id="navToggle">
+                        <span class="burger__line">1</span>
+                        <span class="burger__line">2</span>
+                        <span class="burger__line">3</span>
+                        <span class="burger__line">4</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Intro -->
+        <div class="intro" id="intro">
+
+            <div class="intro__slider" id="introSlider">
+                <div class="slider-item">
+                    <div class="intro__slider-item" style="background-image: url(assets/images/slider/slide-1.jpg)">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img class="intro__slider-photo" src="assets/images/slider/slide-2.jpg" alt="">
+                </div>
+                <div class="slider-item">
+                    <div class="intro__slider-item" style="background-image: url(assets/images/slider/slide-3.jpeg)">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img class="intro__slider-photo" src="assets/images/slider/slide-4.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="intro__inner">
+
+                    <div class="intro__text" data-aos="fade-left">
+                        <div class="intro__countries">Russia, Moscow.</div>
+                        <h1 class="intro__title">
+                            <span class="intro__title-amp">and</span>
+                            IT<br>Services
+                        </h1>
+                    </div>
+
+                    <div class="request-form  request-form--intro" data-aos="fade-right">
+                        <div class="request-form__header">
+                            <h3 class="request-form__title">Развивайся с нами</h3>
+                            <div class="request-form__text">Мы ищем новые лица в нашу компанию. Если целеустремленность,
+                                развитие, и желание создать что-то новое про тебя, мы ждем!</div>
+                        </div>
+
+                        <div class="request-form__content">
+                            <form class="form" action="/" method="post">
+                                <div class="form__group">
+                                    <input class="input  input--user" type="text" placeholder="ФИО">
+                                </div>
+                                <div class="form__group">
+                                    <input class="input  input--phone" type="tel" placeholder="Телефон">
+                                </div>
+                                <div class="form__group">
+                                    <input class="input  input--email" type="email" placeholder="Email">
+                                </div>
+                                <button class="btn btn--popup btn--block  btn--color" type="button">Оставить заявку
+                                </button>
+                            </form>
+                        </div>
+                    </div><!-- /.request-form -->
+
+
+                    <div class="intro__slider-arrows">
+                        <button class="intro__slider-btn  intro__slider-btn--prev" id="introSliderPrev"
+                            type="button">Prev</button>
+                        <button class="intro__slider-btn  intro__slider-btn--next" id="introSliderNext"
+                            type="button">Next</button>
+                    </div>
+                </div><!-- /.intro__inner -->
+
+            </div><!-- /.container -->
+        </div><!-- /.intro -->
+
+
+
+        <!-- Services -->
+        <section class="section" id="services" data-scrollspy="#services">
+            <div class="container">
+                <div class="services">
+                    <h2 class="services__main-title">Услуги</h2>
+
+                    <div class="services__item" data-aos="fade-down">
+                        <h4 class="services__title">Проектирование системы</h4>
+                        <div class="services__text">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam</p>
+                        </div>
+                        <div class="services__footer">
+                            <a class="services__link" href="#" id="first_info_pop_up">Узнать подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="services__item" data-aos="fade-down" data-aos-delay="100">
+                        <h4 class="services__title">Разработка SSR приложений</h4>
+                        <div class="services__text">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut</p>
+                        </div>
+                        <div class="services__footer">
+                            <a class="services__link" href="#" id="second_info_pop_up">Узнать подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="services__item" data-aos="fade-down" data-aos-delay="200">
+                        <h4 class="services__title">Разработка микросервисов</h4>
+                        <div class="services__text">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam</p>
+                        </div>
+                        <div class="services__footer">
+                            <a class="services__link" href="#" id="third_info_pop_up">Узнать подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="services__item" data-aos="fade-down" data-aos-delay="300" id="four_info_pop_up">
+                        <h4 class="services__title">Улучшение готовых систем</h4>
+                        <div class="services__text">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut</p>
+                        </div>
+                        <div class="services__footer">
+                            <a class="services__link" href="#">Узнать подробнее</a>
+                        </div>
+                    </div>
+                </div><!-- /.services -->
+            </div><!-- /.container -->
+        </section>
+
+
+        <!-- Clients -->
+        <section class="section  section--map" id="clients" data-scrollspy="#clients">
+            <div class="container">
+                <h2 class="section__title"><span>Наши</span> клиенты</h2>
+
+                <div class="clients">
+                    <div class="clients__logos">
+                        <ul class="clients__list">
+                            <li data-aos="fade-right" data-aos-anchor=".clients">
+                                <a href="#" target="_blank">
+                                    <img class="clients__list-logo  img" src="assets/images/clients/a-p-logo.svg"
+                                        alt="">
+                                </a>
+                            </li>
+                            <li data-aos="fade-right" data-aos-delay="50" data-aos-anchor=".clients">
+                                <a href="#" target="_blank">
+                                    <img class="clients__list-logo  img" src="assets/images/clients/hertz-logo.svg"
+                                        alt="">
+                                </a>
+                            </li>
+                            <li data-aos="fade-right" data-aos-delay="100" data-aos-anchor=".clients">
+                                <a href="#" target="_blank">
+                                    <img class="clients__list-logo  img" src="assets/images/clients/REMAX-02.svg"
+                                        alt="">
+                                </a>
+                            </li>
+                            <li data-aos="fade-right" data-aos-delay="150" data-aos-anchor=".clients">
+                                <a href="#" target="_blank">
+                                    <img class="clients__list-logo  img"
+                                        src="assets/images/clients/rotary-international-7.svg" alt="">
+                                </a>
+                            </li>
+                            <li data-aos="fade-right" data-aos-delay="200" data-aos-anchor=".clients">
+                                <a href="#" target="_blank">
+                                    <img class="clients__list-logo  img" src="assets/images/clients/langa-marketing.svg"
+                                        alt="">
+                                </a>
+                            </li>
+                            <li data-aos="fade-right" data-aos-delay="250" data-aos-anchor=".clients">
+                                <a href="#" target="_blank">
+                                    <img class="clients__list-logo  img" src="assets/images/clients/pushbullet.svg"
+                                        alt="">
+                                </a>
+                            </li>
+                            <li data-aos="fade-right" data-aos-delay="300" data-aos-anchor=".clients">
+                                <a href="#" target="_blank">
+                                    <img class="clients__list-logo  img" src="assets/images/clients/TodayTix.svg"
+                                        alt="">
+                                </a>
+                            </li>
+                            <li data-aos="fade-right" data-aos-delay="350" data-aos-anchor=".clients">
+                                <a href="#" target="_blank">
+                                    <img class="clients__list-logo  img" src="assets/images/clients/Qantas-02.svg"
+                                        alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /.clients__logos -->
+
+                    <div class="clients__reviews">
+                        <div class="reviews" id="reviewsSlider">
+                            <div class="reviews__item">
+                                <div class="reviews__header">
+                                    <img class="reviews__photo"
+                                        src="/assets/images/avatar_face_man_boy_male_profile_smiley_happy_people_icon_181661.svg"
+                                        alt="">
+                                    <div class="reviews__header-content">
+                                        <div class="reviews__name">Альберт Скорин</div>
+                                        <div class="reviews__company">Hertz CEO</div>
+                                    </div>
+                                </div>
+                                <div class="reviews__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium laboriosam
+                                        eius perspiciatis molestiae aut repellat delectus fugiat veritatis maxime
+                                        impedit harum accusamus, quas nihil laudantium minima ex sapiente. Error,
+                                        repudiandae.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium laboriosam
+                                        eius perspiciatis molestiae aut repellat delectus fugiat veritatis maxime
+                                        impedit harum accusamus, quas nihil laudantium minima ex sapiente. Error,
+                                        repudiandae.</p>
+                                </div>
+                            </div>
+
+                            <div class="reviews__item">
+                                <div class="reviews__header">
+                                    <img class="reviews__photo"
+                                        src="/assets/images/avatar_face_man_boy_male_profile_smiley_happy_people_icon_181657.svg"
+                                        alt="">
+                                    <div class="reviews__header-content">
+                                        <div class="reviews__name">Андрей Вершинин</div>
+                                        <div class="reviews__company">Генеральный директор Remax</div>
+                                    </div>
+                                </div>
+                                <div class="reviews__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium laboriosam
+                                        eius perspiciatis molestiae aut repellat delectus fugiat veritatis maxime
+                                        impedit harum accusamus, quas nihil laudantium minima ex sapiente. Error,
+                                        repudiandae.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium laboriosam
+                                        eius perspiciatis molestiae aut repellat delectus fugiat veritatis maxime
+                                        impedit harum accusamus, quas nihil laudantium minima ex sapiente. Error,
+                                        repudiandae.</p>
+                                </div>
+                            </div>
+                        </div><!-- /.reviews -->
+                    </div><!-- /.clients__reviews -->
+                </div><!-- /.clients -->
+
+                <button class="btn btn--popup  btn--color  btn--shadow" type="button" data-modal="#becomeClientModal">
+                    <span>Оставить заявку</span>
+                </button>
+                <span class="clients-love">Мы дорожим каждым клиентом!</span>
+            </div><!-- /.container -->
+        </section>
+
+
+
+        <!-- Benefits -->
+        <section class="section" id="benefits" data-scrollspy="#benefits">
+            <div class="container">
+                <h2 class="section__title"><span>Наши</span> преимущества</h2>
+                <div class="benefits">
+                    <div class="benefits__col">
+                        <ul class="benefits-list">
+                            <li class="benefits-list__item" data-aos="fade-down" data-aos-anchor=".benefits">
+                                <span class="benefits__img">&#10004</span>
+                                <h4 class="benefits-list__title">Скорость</h4>
+                                <div class="benefits-list__text">
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="benefits-list__item" data-aos="fade-down" data-aos-delay="200"
+                                data-aos-anchor=".benefits">
+                                <span class="benefits__img">&#10004</span>
+                                <h4 class="benefits-list__title">Высокое качество</h4>
+                                <div class="benefits-list__text">
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="benefits-list__item" data-aos="fade-down" data-aos-delay="400"
+                                data-aos-anchor=".benefits">
+                                <span class="benefits__img">&#10004</span>
+                                <h4 class="benefits-list__title">Гарантия &amp; Поддержка</h4>
+                                <div class="benefits-list__text">
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="benefits-list__item" data-aos="fade-down" data-aos-delay="600"
+                                data-aos-anchor=".benefits">
+                                <span class="benefits__img">&#10004</span>
+                                <h4 class="benefits-list__title">Проффесиональный подход</h4>
+                                <div class="benefits-list__text">
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- /.benefits__col -->
+
+                    <div class="benefits__col">
+                        <img class="img" src="assets/images/ce32c5b4fed67ccdc9cf083bd29d4e18.png" alt="">
+                    </div>
+                </div><!-- /.benefits -->
+            </div><!-- /.container -->
+        </section>
+
+
+
+        <!-- Team -->
+        <section class="section  section--gray" id="team" data-scrollspy="#team">
+            <div class="container">
+                <h2 class="section__title"><span>Наша</span> команда</h2>
+
+                <div class="team">
+                    <div class="team__col">
+                        <div class="team__item" data-aos="fade-in">
+                            <img class="team__photo  img" src="assets/images/team/team1.jpg" alt="">
+                            <div class="team__name">Андрей Скориков</div>
+                            <div class="team__prof">Руководитель отдела разработки</div>
+                            <ul class="team__contacts">
+                                <li>
+                                    <img class="team__contacts-icon" src="/assets/images/mail-icon.svg" alt="">
+                                    <a href="mailto:andrey@absystem.com">andrey@absystem.com</a>
+                                </li>
+                                <li>
+                                    <img class="team__contacts-icon" src="assets/images/phone-icon.svg" alt="">
+                                    <a href="tel:+799412512543">+799412512543</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="team__col">
+                        <div class="team__item" data-aos="fade-in" data-aos-delay="100">
+                            <img class="team__photo  img" src="assets/images/team/team2.jpg"" alt="">
+                            <div class=" team__name">Антонио Фермон
+                        </div>
+                        <div class="team__prof">Project Manager</div>
+                        <ul class="team__contacts">
+                            <li>
+                                <img class="team__contacts-icon" src="assets/images/mail-icon.svg" alt="">
+                                <a href="mailto:daniel@absystem.com">antonio@absystem.com</a>
+                            </li>
+                            <li>
+                                <img class="team__contacts-icon" src="assets/images/phone-icon.svg" alt="">
+                                <a href="tel:+795423252253">+795423252253</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="team__col">
+                    <div class="team__item" data-aos="fade-in" data-aos-delay="200">
+                        <img class="team__photo  img" src="assets/images/team/team3.jpg" alt="">
+                        <div class="team__name">Анна Вотенцева</div>
+                        <div class="team__prof">Руководитель отдела маркетинга</div>
+                        <ul class="team__contacts">
+                            <li>
+                                <img class="team__contacts-icon" src="assets/images/mail-icon.svg" alt="">
+                                <a href="mailto:anna@absystem.com">anna@absystem.com</a>
+                            </li>
+                            <li>
+                                <img class="team__contacts-icon" src="assets/images/phone-icon.svg" alt="">
+                                <a href="tel:+79335353456">+79335353456</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /.team -->
+    </div><!-- /.container -->
+    </section>
+
+
+
+
+    <!-- Mission -->
+    <section class="section" id="mission" data-scrollspy="#mission">
+        <div class="container">
+            <h2 class="mission-title">Наша цель</h2>
+            <div class="mission" data-aos="fade-up" data-aos-duration="1250">
+                <h3 class="mission__title">Предоставлять нашим клиентам высококлассные услуги и новейшие продукты.
+                </h3>
+                <h4 class="mission__subtitle">Доверьтесь нам и ваша работа станет легче</h4>
+            </div>
+
+            <div class="text-center">
+                <button class="btn  btn--color btn--shadow" type="button" data-modal="#becomeClientModal">
+                    <span>Свяжитесь с нами</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- News -->
+    <section class="section  section--last" id="news" data-scrollspy="#news">
+        <div class="container">
+            <h2 class="section__title"><span>Новости</span> компании</h2>
+
+            <div class="articles">
+                <article class="articles__item" data-aos="fade-in">
+                    <h4 class="articles__title">
+                        <a href="#">Новостной заголовок</a>
+                    </h4>
+                    <div class="articles__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                        takimata sanctus est Lorem ipsum dolor sit amet.</div>
+                    <time class="articles__date" datetime="2021-04-21 19:00">21 апрлея, 2021</time>
+                </article>
+
+                <article class="articles__item" data-aos="fade-in">
+                    <h4 class="articles__title">
+                        <a href="#">Новостной заголовок</a>
+                    </h4>
+                    <div class="articles__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                        takimata sanctus est Lorem ipsum dolor sit amet.</div>
+                    <time class="articles__date" datetime="2021-04-21 19:00">21 апрлея, 2021</time>
+                </article>
+            </div><!-- /.articles -->
+
+            <a class="btn  btn--color  btn--shadow" href="blog.html">
+                <span>Посетить блог</span>
+            </a>
+        </div><!-- /.container -->
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <a class="header__logo  header__logo--black" href="#" data-scroll="#intro">
+                <img src="assets/images/logo.svg" alt="ABsystem">
+                <span class="header__logo-text">ABSystem</span>
+            </a>
+            <address class="footer__contacts">
+                <p>Россия, Москва</p>
+                <p>
+                    Свяжитесь с нами: <a href="tel:+79432432441">+79432432441</a> или
+                    Email: <a href="mailto:hello@absystem.com">hello@absystem.com</a>
+                </p>
+            </address>
+
+            <nav class="footer__nav">
+                <a href="text.html">Политика конфиденциальности</a>
+                <a href="text2.html">Условия &amp; Соглашение</a>
+                <a href="blog.html">Наш блог</a>
+            </nav>
+        </div>
+    </footer>
+
+    </div>
+
+
+    <!-- Modals -->
+    <div class="modal" id="becomeClientModal">
+        <div class="modal__inner">
+            <div class="modal__content">
+                <div class="modal__header">
+                    <h4 class="modal__title">Свяжитесь с нами!</h4>
+                    <div class="modal__text">
+                        <p>Заполните форму ниже, и мы обязательно вам перевзоним.</p>
+                    </div>
+                </div>
+
+                <form class="form" action="/" method="post">
+                    <div class="form__group">
+                        <input class="input  input--dark  input--user" type="text" placeholder="ФИО">
+                    </div>
+                    <div class="form__group">
+                        <input class="input  input--dark  input--phone" type="tel" placeholder="Телефон">
+                    </div>
+                    <div class="form__group">
+                        <input class="input  input--dark  input--email" type="email" placeholder="Email">
+                    </div>
+                    <button class="btn btn-modal--popup btn--block  btn--color" type="button" id="open_pop_up">
+                        <span>Оставить заявку</span>
+                    </button>
+                </form>
+
+                <div class="modal__footer">
+                    <h4 class="modal__footer-title">Наши контакты</h4>
+                    <address class="modal__contacts">
+                        <p>Россия, Москва</p>
+                        <p>Телефон: <a href="tel:+79432432441">+79432432441</a></p>
+                        <p>Email: <a href="mailto:hello@absystem.com">hello@absystem.com</a></p>
+                    </address>
+                </div>
+
+                <button class="modal__close" type="button" data-modal-close>
+                    <img src="assets/images/closeblack.svg" alt="Close">
+                </button>
+            </div><!-- /.modal__content -->
+        </div><!-- /.modal__inner -->
+    </div><!-- /.modal -->
+
+
+    <!-- Popup -->
+    <div class="pop_up" id="pop_up">
+        <div class="pop_up_container">
+            <div class="pop_up_body" id="pop_up_body">
+                <img src="/assets/images/method-draw-image(1).svg" alt="">
+                <h4 class="modal__title">Заявка отправлена!</h4>
+                <div class="modal__text">
+                    <p>В скором времени мы с вами свяжемся.</p>
+                </div>
+                <div class="pop_up_close" data-modal-close>
+                    <button class="modal__close" type="button" data-modal-close>
+                        <img src="assets/images/close.svg" alt="Close">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info-popups -->
+    <div class="info_pop_up" id="first_info">
+        <div class="pop_up_container">
+            <div class="info_pop_up_body">
+                <h4 class="modal__title">Проектирование системы</h4>
+                <div class="modal__text">
+                    <p>Выделяется три основных этапа работы:</p>
+                </div>
+                <div class="info__silder" id="proectSystem">
+                    <div class="reviews__content">
+                        <p>Проектирование — процесс определения архитектуры, компонентов, интерфейсов и других
+                            характеристик системы или её части. Результатом проектирования является прое́кт —
+                            целостная совокупность моделей, свойств или характеристик, описанных в форме, пригодной для
+                            реализации системы. <br> Проектирование, наряду с анализом требований, является частью
+                            большой стадии жизненного цикла
+                            системы, называемой определением системы. Результаты этой стадии являются входной
+                            информацией для стадии реализации.</p>
+                    </div>
+                    <div class="reviews__content">
+                        <p>Анализ — процесс определения архитектуры, компонентов, интерфейсов и других
+                            характеристик системы или её части. Результатом проектирования является прое́кт —
+                            целостная совокупность моделей, свойств или характеристик, описанных в форме, пригодной для
+                            реализации системы. <br> Проектирование, наряду с анализом требований, является частью
+                            большой стадии жизненного цикла
+                            системы, называемой определением системы. Результаты этой стадии являются входной
+                            информацией для стадии реализации.</p>
+                    </div>
+                    <div class="reviews__content">
+                        <p>Готовый проект — процесс определения архитектуры, компонентов, интерфейсов и других
+                            характеристик системы или её части. Результатом проектирования является прое́кт —
+                            целостная совокупность моделей, свойств или характеристик, описанных в форме, пригодной для
+                            реализации системы. <br> Проектирование, наряду с анализом требований, является частью
+                            большой стадии жизненного цикла
+                            системы, называемой определением системы. Результаты этой стадии являются входной
+                            информацией для стадии реализации.</p>
+                    </div>
+                </div>
+
+                <div class="info_pop_up_close" id="first_info_close">
+                    <button class="modal__close" type="button" data-modal-close>
+                        <img src="assets/images/close.svg" alt="Close">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info_pop_up" id="second_info">
+        <div class="pop_up_container">
+            <div class="info_pop_up_body">
+                <h4 class="modal__title">Разработка SSR приложений</h4>
+                <div class="modal__text">
+                    <p>Мы выполним работу качественно</p>
+                </div>
+                <div class="info__silder" id="developSsr">
+                    <div class="reviews__content">
+                        <p>SSR –это технология, которая позволяет, с помощью Node.js, запускать JavaScript код на
+                            сервере (а не в браузере как обычно) и готовый
+                            результат отправлять пользователю, избегая лишней нагрузки на его браузер и компьютер.Когда
+                            пользователь заходит на сайт, сделанный с помощью JavaScript, то все расчеты и отрисовка
+                            графических элементов возлагается на его браузер.
+                        </p>
+                    </div>
+                    <div class="reviews__content">
+                        <p>SSR помогает снизить нагрузку на браузер пользователя, это особенно важно, если пользователь
+                            использует телефон или слабый компьютер. Крупные проекты, например как OZON, используют
+                            такие технологии, дабы упростить жизнь пользователю и повысить прибыльность проекта. Ведь
+                            медленный сайт – это убыточный и бесполезный сайт.</p>
+                    </div>
+
+                </div>
+
+                <div class="info_pop_up_close" id="second_info_close">
+                    <button class="modal__close" type="button" data-modal-close>
+                        <img src="assets/images/close.svg" alt="Close">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info_pop_up" id="third_info">
+        <div class="pop_up_container">
+            <div class="info_pop_up_body">
+                <h4 class="modal__title">Разработка микросервисов</h4>
+                <div class="modal__text">
+                    <p>В ногу со временем</p>
+                </div>
+                <div class="info__silder">
+                    <div class="reviews__content">
+                        <p>Микросервисная архитектура — это способ структурирования системы, при которой несколько
+                            независимых сервисов общаются друг с другом определенным образом, обычно это происходит с
+                            помощью web-сервисов. Ключевая особенность состоит в том, что каждый микросервис
+                            способен обновляться и развертываться независимо от остальных</p>
+                        <p>По мере роста компании и увеличения команд разработчиков может потребоваться лучшая
+                            координация. Программисты начинают часто мешать друг другу. Понять цель конкретного
+                            фрагмента кода становится сложнее. В таких случаях переход на микросервисы имеет смысл — это
+                            поможет разделить обязанности и внести ясность в общую картину системы.</p>
+                    </div>
+                </div>
+
+                <div class="info_pop_up_close" id="third_info_close">
+                    <button class="modal__close" type="button" data-modal-close>
+                        <img src="assets/images/close.svg" alt="Close">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info_pop_up" id="four_info">
+        <div class="pop_up_container">
+            <div class="info_pop_up_body">
+                <h4 class="modal__title">Улучшение готовых систем</h4>
+                <div class="modal__text">
+                    <p>С помощью наших специалистов</p>
+                </div>
+                <div class="info__silder" id="upgrade">
+                    <div class="reviews__content">
+                        <p>При разработке нового продукта и его выводе на рынок решающее значение имеют эффективность и
+                            время. Для этого нужна система управления проектами, учитывающая неопределенность и без
+                            денежных стимулов поощряющая сотрудников работать быстро и эффективно.Проектирование системы
+                            направлено на представление системы, соответствующее предусмотренной
+                            цели, принципам и замыслам; оно включает оценку и принятие решений по выбору таких
+                            компонентов
+                            системы, которые отвечают её архитектуре и укладываются в предписанные ограничения.</p>
+                    </div>
+                    <div class="reviews__content">
+                        <p>
+                            Добавим облачное хранилище, модель облачных вычислений, предусматривающая хранение данных в
+                            Интернете с помощью поставщика облачных вычислительных ресурсов, который предоставляет
+                            хранилище данных как сервис и обеспечивает управление им. Это обеспечивает гибкость,
+                            глобальную масштабируемость и надежность. Данные доступны в любое
+                            время и в любом месте.
+                    </div>
+                    <div class="reviews__content">
+                        <p>Улучшим взаимодействие. Данный аспект проектирования интерфейсов в настоящее время находится
+                            под пристальным вниманием и исследователей-теоретиков, и практиков, занимающихся разработкой
+                            программного
+                            обеспечения. В создании современных так называемых человеко-ориентированных интерфейсов
+                            учитываются особенности ментальной сферы человека возникающие при общении с программой.</p>
+                    </div>
+                </div>
+
+                <div class="info_pop_up_close" id="four_info_close">
+                    <button class="modal__close" type="button" data-modal-close>
+                        <img src="assets/images/close.svg" alt="Close">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
